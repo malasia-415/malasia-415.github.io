@@ -1,0 +1,102 @@
+body { 
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    background-image: url("https://cache.desktopnexus.com/thumbseg/1405/1405459-bigthumbnail.jpg");
+  }
+  
+  .main {
+    color: white;
+    line-height: 30px;
+  }
+  
+  a,a:visited {
+    color: white;
+  }
+  
+  header h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .nav {
+    position: fixed;
+    width: 20px;
+    background-color: grey;
+    z-index: 9990;
+    display: none;
+    color: black;
+  }
+  
+  .project {
+    width: 75%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: auto auto;
+    padding: 0;
+    overflow: auto;
+    background-color: white;
+    position: static;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li > a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:visited {
+    color: black;
+  }
+  
+  .navbar > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: white;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .nav,
+  footer {
+    padding: 5px;
+    background-color: black;
+    margin-top: 20px;
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  section {
+    min-height: 50px;
+    padding: 0% 0;
+    background-color: #bbb;
+  }
+  
+  
+  
