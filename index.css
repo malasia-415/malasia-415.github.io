@@ -4,12 +4,21 @@ body {
     color: white;
     margin-top: 10px;
     font-size: 20px;
+    padding: 0 30px;
     background-image: url("https://cache.desktopnexus.com/thumbseg/1405/1405459-bigthumbnail.jpg");
   }
   
   .main {
     color: white;
     line-height: 30px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .image {
+    text-align: center;
   }
   
   a,a:visited {
@@ -78,6 +87,10 @@ body {
     padding: 5px;
     background-color: black;
     margin-top: 20px;
+  }
+
+  footer {
+    text-align: center;
   }
   
   .nav {
