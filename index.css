@@ -1,3 +1,8 @@
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
 body { 
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
@@ -5,7 +10,7 @@ body {
     margin-top: 10px;
     font-size: 20px;
     padding: 0 30px;
-    background-image: url("https://cache.desktopnexus.com/thumbseg/1405/1405459-bigthumbnail.jpg");
+    background-image: url("https://i.pinimg.com/736x/53/4c/d4/534cd4c90c780706d9fe7ab1e4039685.jpg");
   }
   
   .main {
@@ -17,9 +22,17 @@ body {
     text-align: center;
   }
 
+  @media only screen and (max-width: 320px), (max-height: 1600px) {
   .image {
     text-align: center;
+    position:relative;
   }
+} 
+
+.headshot {
+  height: 260px;
+  width: 260px;
+}
   
   a,a:visited {
     color: white;
@@ -108,7 +121,7 @@ body {
   section {
     min-height: 50px;
     padding: 0% 0;
-    background-color: #bbb;
+    background-color: black;
   }
   
   
